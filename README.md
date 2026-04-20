@@ -1,4 +1,9 @@
-# devops-capstone-project
+# DevOps Capstone Project
+
+![Estado de la construcción](https://github.com/donnydaniel/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
+## Introduction
+...
 
 En este proyecto Capstone, aplicarás muchas de las tecnologías y conceptos que aprendiste en los cursos anteriores para construir y entregar un microservicio de Cuentas de Clientes completamente funcional.
 
