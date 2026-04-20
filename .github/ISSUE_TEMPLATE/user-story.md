@@ -1,3 +1,10 @@
+---
+name: User Story
+about: Plantilla para las historias de usuario del microservicio de cuentas
+title: ''
+labels: ''
+assignees: ''
+---
 **As a** [role]  
 **I need** [function]  
 **So that** [benefit]  
