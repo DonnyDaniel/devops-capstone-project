@@ -1,4 +1,4 @@
-apiVersion: v1
+oc create -f tekton/pvc.yamlapiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: pipelinerun-pvc
