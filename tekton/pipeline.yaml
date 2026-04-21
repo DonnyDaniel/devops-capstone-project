@@ -15,6 +15,7 @@ spec:
     - name: repo-url
     - name: branch
       default: main
+    - name: build-image     # <--- ¡ESTA LÍNEA ES LA QUE FALTA O NO SE HA APLICADO!
   tasks:
     - name: init
       workspaces:
