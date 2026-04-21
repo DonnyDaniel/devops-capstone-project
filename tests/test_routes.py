@@ -21,6 +21,7 @@ DATABASE_URI = os.getenv(
 BASE_URL = "/accounts"
 HTTPS_ENVIRON = {'wsgi.url_scheme': 'https'}
 
+
 ######################################################################
 #  T E S T   C A S E S
 ######################################################################
@@ -52,10 +53,10 @@ class TestAccountService(TestCase):
         """Runs once after each test case"""
         db.session.remove()
 
+    ######################################################################
+    #  P O L I T I C A S     C O R S
+    ######################################################################
 
-######################################################################
-#  P O L I T I C A S     C O R S
-######################################################################
     def test_cors_security(self):
         """It should return a CORS header"""
         response = self.client.get('/', environ_overrides=HTTPS_ENVIRON)
